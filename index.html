@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <h1>Create Your Meme</h1>
+   
+
+    <form id="formeme">
+        <p>
+            <label for="">Image URL:
+        <input type="url" id="imglink" placeholder="Image URL here" name="memeimage">
+        </label>
+        </p>
+        <p>
+            <label for="">I want the first line to say:
+        <input type="text" id="toptext" placeholder="Enter text for first line" name="toptxt">
+        </label>
+        </p>
+        <p>
+            <label for="">I want the second line to say:
+        <input type="text" id="bottomtext" placeholder="Enter text for second line" name="bottomtxt">
+        </label>
+        </p>
+        <button type="submit">Create Meme</button>
+    </form>
+    
+        <section id="results"></section>
+
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
